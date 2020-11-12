@@ -29,17 +29,13 @@ module.exports = class GitHubCommand extends Command {
   }
   run(message) {
     const embed = new MessageEmbed()
-      .setTitle('Lien GitHub')
+      .setTitle(''+emojis.github+' Lien GitHub')
       .setThumbnail(message.guild.iconURL())
       .setDescription(oneLine`
         [Clique ici](https://github.com/GalackQSM/Alcatraz) pour visiter mon référentiel GitHub!
         S'il vous plaît, soutenez-moi en mettant en vedette ⭐ le repo, et n'hésitez pas à commenter des problèmes ou des suggestions!
       `)
-      .addField('Autres liens', 
-        '**[Ajouter Alcatraz](https://discordapp.com/oauth2/authorize?client_id=774652242787041310&scope=bot&permissions=2146958847) | ' +
-        '[Alcatraz Empire](https://discord.gg/HPtTfqDdMr) | ' +
-        '[Github](https://github.com/GalackQSM/Alcatraz)**'
-      )
+      .addField(''+emojis.liens+' Liens', '**[Ajouter Alcatraz](https://discordapp.com/oauth2/authorize?client_id=774652242787041310&scope=bot&permissions=2146958847) | '+'[Alcatraz Empire](https://discord.gg/aGP5kvxFEc) | '+'[Github](https://github.com/GalackQSM/Alcatraz) | '+'[SiteWeb](https://alcatraz-bot.com)**')
       .setFooter("© 2020 - Alcatraz | Projet open-source")
       .setTimestamp()
       .setColor("#2f3136");
