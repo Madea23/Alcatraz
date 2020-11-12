@@ -117,12 +117,7 @@ module.exports = class HelpCommand extends Command {
           embed.addField(`**${emojiMap[type]} [${commands[type].length}]**`, commands[type].join(' '));
       }
 
-      embed.addField(
-        '**<:liens:775032596714618891> Liens**', 
-        '**[Ajouter Alcatraz](https://discordapp.com/oauth2/authorize?client_id=774652242787041310&scope=bot&permissions=2146958847) | ' +
-        '[Alcatraz Empire](https://discord.gg/HPtTfqDdMr) | ' +
-        '[Github](https://github.com/GalackQSM/Alcatraz)**'
-      );
+      embed.addField(''+emojis.liens+' Liens', '**[Ajouter Alcatraz](https://discordapp.com/oauth2/authorize?client_id=774652242787041310&scope=bot&permissions=2146958847) | '+'[Alcatraz Empire](https://discord.gg/aGP5kvxFEc) | '+'[Github](https://github.com/GalackQSM/Alcatraz) | '+'[SiteWeb](https://alcatraz-bot.com) | '+'[Dons](https://www.patreon.com/AlcatrazBot)**');
         
     }
     message.channel.send(embed);
