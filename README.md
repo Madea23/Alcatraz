@@ -44,7 +44,7 @@ Alcatraz a beaucoup de fonctionnalités, avec **9 catégories principales**:
 * 5- Allez dans le fichier `config.jon` et le remplir.
 * 6- Après faite dans le CMD `npm start`.
 
-*PS: Si vous avez des erreurs d'installation, télécharger [Visual Studio Community](https://visualstudio.microsoft.com/fr/vs/community/) et cocher cette case pendant l'installation [Screen](https://i.imgur.com/KTqnSxo.png) et refaire `npm start` et le tour est jouer
+* PS: Si vous avez des erreurs d'installation, télécharger [Visual Studio Community](https://visualstudio.microsoft.com/fr/vs/community/) et cocher cette case pendant l'installation [Screen](https://i.imgur.com/KTqnSxo.png) et refaire `npm start` et le tour est jouer
 
 ## Lien utiles
 
