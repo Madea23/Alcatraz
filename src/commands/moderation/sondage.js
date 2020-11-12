@@ -61,7 +61,7 @@ module.exports = class SondageCommand extends Command {
         sentEmbed.react(secondReaction);
       });
     } catch{
-      message.channel.send("Uh oh! Something went wrong while attempting to create a poll!");
+      message.channel.send("Oh! Une erreur s'est produite lors de la tentative de création d'un sondage!");
       return;
     }
     
