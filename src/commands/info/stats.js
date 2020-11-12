@@ -62,12 +62,7 @@ module.exports = class StatsCommand extends Command {
       .addField('Catégories:', `\`${Object.keys(message.client.types).length}\` catégories`, true)
       .addField('__Alcatraz__', `${clientStats}`)
       .addField('__Serveur__', `${serverStats}`)
-      .addField(
-        '**'+emojis.liens+' Liens**', 
-        '**[Ajouter Alcatraz](https://discordapp.com/oauth2/authorize?client_id=774652242787041310&scope=bot&permissions=2146958847) | ' +
-        '[Alcatraz Empire](https://discord.gg/HPtTfqDdMr) | ' +
-        '[Github](https://github.com/GalackQSM/Alcatraz)**'
-      )
+      .addField(''+emojis.liens+' Liens', '**[Ajouter Alcatraz](https://discordapp.com/oauth2/authorize?client_id=774652242787041310&scope=bot&permissions=2146958847) | '+'[Alcatraz Empire](https://discord.gg/aGP5kvxFEc) | '+'[Github](https://github.com/GalackQSM/Alcatraz) | '+'[SiteWeb](https://alcatraz-bot.com) | '+'[Dons](https://www.patreon.com/AlcatrazBot)**')
         .setImage('https://i.imgur.com/WP9d2Z2.png')
         .setFooter("© 2020 - Alcatraz | Projet open-source")
         .setTimestamp()
