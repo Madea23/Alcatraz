@@ -25,7 +25,7 @@ module.exports = class SondageCommand extends Command {
       description: 'Crée des sondage.',
       type: client.types.MOD,
       clientPermissions: ['SEND_MESSAGES', 'EMBED_LINKS', 'KICK_MEMBERS'],
-      userPermissions: ['KICK_MEMBERS'],
+      userPermissions: ['MANAGE_GUILD'],
       examples: ['sondage Aime-tu Alcatraz ?']
     });
   }
