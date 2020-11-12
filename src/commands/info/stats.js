@@ -36,6 +36,10 @@ module.exports = class StatsCommand extends Command {
     const d = moment.duration(message.client.uptime);
     const days = (d.days() == 1) ? `${d.days()} jour` : `${d.days()} jours`;
     const hours = (d.hours() == 1) ? `${d.hours()} heure` : `${d.hours()} heures`;
+    const donateurStats = stripIndent`
+      \`• GalackQSM#0895\`
+      \`• Vide\`
+    `;
     const clientStats = stripIndent`
       **• Serveurs:** ${message.client.guilds.cache.size}
       **• Membres:** ${message.client.users.cache.size}
@@ -60,6 +64,7 @@ module.exports = class StatsCommand extends Command {
       .addField('Commandes:', `\`${message.client.commands.size}\` commandes`, true)
       .addField('Aliases:', `\`${message.client.aliases.size}\` aliases`, true)
       .addField('Catégories:', `\`${Object.keys(message.client.types).length}\` catégories`, true)
+      .addField('__Les donateurs d\'Alcatraz__', `${donateurStats}`)
       .addField('__Alcatraz__', `${clientStats}`)
       .addField('__Serveur__', `${serverStats}`)
       .addField(''+emojis.liens+' Liens', '**[Ajouter Alcatraz](https://discordapp.com/oauth2/authorize?client_id=774652242787041310&scope=bot&permissions=2146958847) | '+'[Alcatraz Empire](https://discord.gg/aGP5kvxFEc) | '+'[Github](https://github.com/GalackQSM/Alcatraz) | '+'[SiteWeb](https://alcatraz-bot.com) | '+'[Dons](https://www.patreon.com/AlcatrazBot)**')
