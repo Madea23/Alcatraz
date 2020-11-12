@@ -16,6 +16,7 @@
 const Command = require('../Alcatraz.js');
 const { MessageEmbed } = require('discord.js');
 const { oneLine } = require('common-tags');
+const emojis = require('../../utils/emojis.json');
 
 module.exports = class GitHubCommand extends Command {
   constructor(client) {
