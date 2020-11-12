@@ -4,7 +4,7 @@
 
 [![](https://img.shields.io/discord/766318515619102730.svg?logo=discord&colorB=7289DA)](https://discord.gg/aGP5kvxFEc)
 [![](https://img.shields.io/badge/discord.js-v12.0.0--dev-blue.svg?logo=npm)](https://discord.js.org/)
-[![](https://img.shields.io/badge/paypal-donate-blue.svg)](https://paypal.me/GalackQSM)
+[![](https://img.shields.io/badge/patreon-donation-orange.svg)](https://www.patreon.com/AlcatrazBot)
 [![](https://www.codefactor.io/repository/gitlab/galackqsm/alcatraz/badge)](https://www.codefactor.io/repository/gitlab/galackqsm/Alcatraz)
 
 > Ce bot est sous licence et également en open-source.
