@@ -36,5 +36,6 @@ module.exports = class EmbedCommand extends Command {
       .setTimestamp()
       .setColor("#2f3136");
     message.channel.send(embed);
+    message.delete();
   }
 };
