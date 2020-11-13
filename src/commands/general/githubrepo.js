@@ -63,7 +63,7 @@ module.exports = class GitHubCommand extends Command {
                 .setDescription(body.description)
                 .addField('Language', body.language, true)
                 .addField('Étoiles (stars)', body.stargazers_count, true)
-                .addField('Observateurs', body.watchers_count, true)
+                .addField('Observateurs', body.subscribers_count, true)
                 .addField('Forks', body.forks_count, true)
                 .addField('Questions ouvertes', body.open_issues_count ? 0 : 'Aucune', true)
                 .addField('Branch standard', body.default_branch, true)
