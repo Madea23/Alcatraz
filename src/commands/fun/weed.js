@@ -22,7 +22,7 @@ module.exports = class WeedCommand extends Command {
     super(client, {
       name: 'weed',
       usage: 'weed',
-      description: 'Tuer une personne.',
+      description: 'Voir une feuille de canabis.',
       type: client.types.FUN,
     });
   }
