@@ -1,5 +1,5 @@
 {
-  "success": "<:valider:774806924712476674>",
+  "success": "<:valider:776109858948120636>",
   "fail": "<:alcatraz_fail:776109858847064065>",
   "info": "<:alcatraz_info:776109859020079144>",
   "fun": "<:alcatraz_fun:776109856578338864>",
@@ -55,6 +55,7 @@
   "emojis": "<:alcatraz_emojis:776186958120091668>",
   "sondage": "<:alcatraz_sondage:776497532259794956>",
   "github": "<:alcatraz_github:776577601702985748>",
+  "error": "<:alcatraz_error:776495050406101093>",
   "discriminateur": "<:alcatraz_tag:776109856448446474>"
 
 }
