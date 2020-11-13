@@ -67,7 +67,6 @@ module.exports = class GitHubCommand extends Command {
                 .addField('Forks', body.forks_count, true)
                 .addField('Questions ouvertes', body.open_issues_count ? 0 : 'Aucune', true)
                 .addField('Branch standard', body.default_branch, true)
-                .addField('License', body.license.key, true)
                 .addField('Créé le', moment(body.created_at).format('L') + ` (${moment(body.created_at).startOf('day').fromNow()})`, true)
                 .addField('Dernière mise à jour', moment(body.updated_at).format('L') + ` (${moment(body.updated_at).startOf('day').fromNow()})`, true)
                 .setFooter("© 2020 - Alcatraz | Projet open-source")
